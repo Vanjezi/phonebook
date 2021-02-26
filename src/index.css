@@ -1,0 +1,10 @@
+body {
+  font-family: 'RoboFT', sans-serif;
+  background: linear-gradient(45deg, #1100ff, #00e1ff);
+ 
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100vh;
+}

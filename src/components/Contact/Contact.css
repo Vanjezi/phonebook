@@ -1,0 +1,12 @@
+
+.all-contact-page {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr 1fr;
+    margin: 5px auto;
+    font-size: 16px;
+    border-bottom: 1px dotted #021733;
+    width: 90%;
+}
+.hide {
+    display: none;
+}

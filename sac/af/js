@@ -1,0 +1,17 @@
+onClick={(e) => {
+                e.stopPropagation();
+                this.props.changeTab (2)
+                if (this.props.items.id === this.props.idIndex) {
+                  console.log (this.props.items)
+                }
+              for (const l in this.props.items) {
+                  if (this.props.items.hasOwnProperty(l)) {
+                      const element = this.props.items[l];
+                      if (element.id === this.props.idIndex ){
+                        
+                          console.log (this.props.name)
+                      }
+                  }
+              }
+                console.log (this.props.items)
+            }}
